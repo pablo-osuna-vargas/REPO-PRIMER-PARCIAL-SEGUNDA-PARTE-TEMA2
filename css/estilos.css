@@ -26,7 +26,7 @@ header, footer {
 	text-align: center;
 }
 
-main, section {
+main, div {
 	margin: 1rem;
 	padding: 1rem;
 	border: solid 1px rgba(255, 0, 240, 0.7);
@@ -61,7 +61,7 @@ nav {
 	font-size: 1.1rem;
 }
 
-nav ul, section ul {
+nav ul, div ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
