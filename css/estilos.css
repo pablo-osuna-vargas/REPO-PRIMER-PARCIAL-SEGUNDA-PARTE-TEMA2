@@ -26,10 +26,14 @@ header, footer {
 	text-align: center;
 }
 
-main, div {
+main, div, .bloque {
 	margin: 1rem;
 	padding: 1rem;
 	border: solid 1px rgba(255, 0, 240, 0.7);
+}
+
+.img {
+	border: none;
 }
 
 blockquote, blockquote mark {
@@ -37,6 +41,16 @@ blockquote, blockquote mark {
 	padding: 0.2rem;
 	background-color: rgba(0, 190, 220, 1.0);
 	font-family: "Federo";
+	font-size: 1.5rem;
+}
+
+.obras ul li {
+	display: block;
+	width: 30%;
+	margin: 0.2rem;
+	padding: 0.2rem;
+	background-color: rgba(0, 190, 220, 1.0);
+	font-family: "Abel";
 	font-size: 1.5rem;
 }
 
